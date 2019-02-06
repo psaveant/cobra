@@ -8,5 +8,6 @@ setup(name= 'cobra',
       description='AConstraint Solver over Discrete Intervals',
       author='Pierre Savéant',
       author_email='pierre.saveant@thalesgroup.com',
-      packages=['cobra', 'store', 'benchs'],
+      packages=['cobra', 'store'],
+      py_modules=['benchs'],
       )

@@ -16,8 +16,10 @@ For a performace issue it is recommanded to add the -O option of Python which wi
 
 For instance, the following benchmarks can be solved with the following commands:
 
-Bridge benchmark: python -O -m benchs.sched_bridge_direct_simple
-N-Queens benchmark: python -O -m benchs.queens 8 -b
+```python
+python -O -m benchs.sched_bridge_direct_simple
+python -O -m benchs.queens 32 -f 1 -v 2
+```
 
 To get a more verbose run you can use the -v option which fixed the global variable VERBOSE:
 *  VERBOSE=0: Quiet
